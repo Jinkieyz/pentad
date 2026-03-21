@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Blender
+*.blend1
+
+# Output (for local use, not tracked)
+# Uncomment to track example STLs:
+# !output/*.stl
