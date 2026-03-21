@@ -66,23 +66,12 @@ Parameters:
 Gielis, J. (2003). A generic geometric transformation that unifies a wide range
 of natural and abstract shapes. American Journal of Botany, 90(3), 333-338.
 
-## Running LAJFI in PENTAD Mode
+## Related: LAJFI
 
 This is a standalone generator. For the full evolutionary simulation with
 mating, mutation, and natural selection, see [LAJFI](https://github.com/Jinkieyz/lajfi).
 
-To run LAJFI in PENTAD mode, edit `lajfi/dna.py` line 16:
-
-```python
-# Change from TRIAD (3 segments):
-GIELIS_GENES = ['lajfi_1', 'lajfi_2', 'lajfi_3']
-
-# To PENTAD (5 segments):
-GIELIS_GENES = ['lajfi_1', 'lajfi_2', 'lajfi_3', 'lajfi_4', 'lajfi_5']
-
-# Or even HEPTAD (7 segments):
-GIELIS_GENES = ['lajfi_1', 'lajfi_2', 'lajfi_3', 'lajfi_4', 'lajfi_5', 'lajfi_6', 'lajfi_7']
-```
+LAJFI uses TRIAD (3 segments) by default but can be configured for PENTAD (5) or HEPTAD (7) by editing `lajfi/dna.py` in that repository.
 
 ## License
 
